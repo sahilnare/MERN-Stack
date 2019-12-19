@@ -39,6 +39,7 @@ class EditPost extends React.Component {
         //     instances.setDate(new Date());
         // });
         // M.AutoInit();
+        
         axios.get('http://localhost:5000/posts/' + this.props.match.params.id)
             .then(res => {
                 this.setState({
@@ -49,6 +50,7 @@ class EditPost extends React.Component {
                 })
             })
             .catch(err => console.log(err));
+        
         axios.get('http://localhost:5000/users/')
             .then(res => {
                 if (res.data.length > 0) {
