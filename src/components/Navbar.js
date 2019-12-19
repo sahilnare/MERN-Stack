@@ -12,7 +12,6 @@ function App() {
                     <li><NavLink to="/">Posts</NavLink></li>
                 </ul>
             </div>
-
         </nav>
     );
 }
