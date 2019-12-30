@@ -3,6 +3,7 @@ import axios from 'axios';
 // import $ from 'jquery';
 import M from 'materialize-css';
 
+
 class CreatePost extends React.Component {
 
     constructor(props) {
